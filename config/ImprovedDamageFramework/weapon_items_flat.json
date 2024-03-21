@@ -1320,23 +1320,26 @@
     }
   },
   "botania:star_sword": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_DIAMOND",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": 0.0,
+      "Damage - PHYSICAL": -8.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
       "Damage - MAGIC": 0.0,
       "Damage - DARK": 0.0,
-      "Damage - HOLY": 0.0,
+      "Damage - HOLY": 8.0,
       "Lifesteal": 0.0,
       "Armour Penetration": 0.0,
-      "Critical Chance": 0.0,
-      "Critical Damage": 0.0,
+      "Critical Chance": 5.0,
+      "Critical Damage": 250.0,
       "Force": 5.040000200271606,
       "Accuracy": 0.0,
       "Knockback": 0.0,
@@ -1410,7 +1413,7 @@
   "botania:terra_pick": {
     "Presets": [],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "pierce",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1452,17 +1455,20 @@
     }
   },
   "botania:terra_sword": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_DIAMOND",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": 0.0,
+      "Damage - PHYSICAL": -8.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
-      "Damage - MAGIC": 0.0,
+      "Damage - MAGIC": 8.0,
       "Damage - DARK": 0.0,
       "Damage - HOLY": 0.0,
       "Lifesteal": 0.0,
@@ -1496,16 +1502,19 @@
     }
   },
   "botania:thunder_sword": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_DIAMOND",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": 0.0,
+      "Damage - PHYSICAL": -8.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
-      "Damage - LIGHTNING": 0.0,
+      "Damage - LIGHTNING": 8.0,
       "Damage - MAGIC": 0.0,
       "Damage - DARK": 0.0,
       "Damage - HOLY": 0.0,
@@ -2072,9 +2081,9 @@
   },
   "hmag:nemesis_blade": {
     "Presets": [
-			"TOOL_NETHERITE",
+      "TOOL_NETHERITE",
       "LIGHT_WEAPON"
-		],
+    ],
     "Bonus Durability": 0,
     "Damage Class": "slash",
     "Ranged?": false,
