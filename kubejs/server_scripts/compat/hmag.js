@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 	event.remove({ id: "hmag:evil_crystal" })
 	event.remove({ id: "hmag:evil_crystal_from_evil_crystal_block" })
 
-	function anvil_upgrade(item, material, min, max) {
+	function anvil_upgrade(item, material, count, min, max) {
 		event.custom(
 			{
 				"type": "lychee:anvil_crafting",
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
 				],
 				"item_out": Ingredient.of(item).toJson(),
 				"level_cost": 1,
-				"material_cost": 20,
+				"material_cost": count,
 				"assembling": [
 					{
 						"type": "nbt_patch",
@@ -37,7 +37,12 @@ ServerEvents.recipes(event => {
 		)
 	}
 
-	anvil_upgrade("iron_sword", "hmag:evil_crystal", 2, 4)
+	Ingredient.of("#forge:tools/swords").itemIds.forEach(element=>{
+		anvil_upgrade(element, "hmag:evil_crystal_fragment", 20, 0, 3)
+		anvil_upgrade(element, "hmag:evil_crystal", 20, 3, 6)
+		anvil_upgrade(element, "hmag:ancient_stone", 20, 6, 9)
+		anvil_upgrade(element, "alexsmobs:void_worm_eye", 1, 9, 10)
+	})
 })
 
 LootJS.modifiers(event => {
@@ -45,4 +50,9 @@ LootJS.modifiers(event => {
 		.killedByPlayer()
 		.randomChanceWithLooting(0.015, 0.005)
 		.addLoot("hmag:evil_crystal_fragment")
+
+		event.addEntityLootModifier(["hmag:zombie_girl", "hmag:husk_girl", "hmag:drowned_girl", "hmag:skeleton_girl", "hmag:wither_skeleton_girl", "hmag:stray_girl"])
+		.killedByPlayer()
+		.randomChanceWithLooting(0.015, 0.005)
+		.addLoot("hmag:evil_crystal")
 })

@@ -37,13 +37,18 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.player.PlayerEvent$BreakSpe
 
 LycheeEvents.customAction("anvil_upgrade", event => {
 	event.action.applyFunc = (recipe, ctx, times) => {
-		let upgrade_count = ctx.getItem(0).nbt?.Upgrade
-		upgrade_count = typeof upgrade_count === "number" ? upgrade_count + 1 : 1
+		const upgrade = ctx.getItem(0).nbt?.Upgrade
 
-		if (upgrade_count > 1) {
-			ctx.getItem(2).nbt.merge({ Upgrade: upgrade_count, affix_data: { affixes: { "apotheosis:socket": upgrade_count, } } })
+		if (upgrade > 0) {
+			let sockets = 0
+			if (upgrade + 1 >= 10) sockets = 3
+			else if (upgrade + 1 >= 7) sockets = 2
+			else if (upgrade + 1 >= 4) sockets = 3
+
+			if (sockets != 0) ctx.getItem(2).nbt.merge({ Upgrade: upgrade + 1, affix_data: { affixes: { "apotheosis:sword/attribute/violent": 0.1 * (upgrade + 1), "apotheosis:socket": sockets } } })
+			else ctx.getItem(2).nbt.merge({ Upgrade: upgrade + 1, affix_data: { affixes: { "apotheosis:sword/attribute/violent": 0.1 * (upgrade + 1) } } })
 		} else {
-			ctx.getItem(2).nbt.merge({ Upgrade: 1, affix_data: { affixes: { "apotheosis:socket": 1, } } })
+			ctx.getItem(2).nbt.merge({ Upgrade: 1, affix_data: { affixes: { "apotheosis:sword/attribute/violent": 0.1 } } })
 		}
 	}
 })
@@ -53,7 +58,7 @@ LycheeEvents.customCondition('can_upgrade', event => {
 		min = event.data.min;
 	event.condition.testFunc = (recipe, ctx, times) => {
 		const upgrade = ctx.getItem(0).nbt?.Upgrade
-		return (upgrade > max || min > upgrade || ctx.getItem(0).nbt?.apoth_boss == 1) ? 0 : times
+		return (max <= upgrade || upgrade < min || ctx.getItem(0).nbt?.apoth_boss == 1) ? 0 : times
 	}
 	event.cancel()
 })

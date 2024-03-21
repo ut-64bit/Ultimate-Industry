@@ -17,4 +17,9 @@ ItemEvents.tooltip(tooltip => {
 		text.add(1, Text.translate("item.tooltip.fire_resistance").gray())
 	})
 	*/
+	tooltip.addAdvanced("#forge:tools/swords", (item, advanced, text) => {
+		let upgrade = item.nbt?.Upgrade
+		upgrade = parseInt(upgrade)
+		if (upgrade) text.add(1, Text.gray(` +${upgrade}`))
+	})
 })
