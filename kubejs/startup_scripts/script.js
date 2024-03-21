@@ -41,9 +41,9 @@ LycheeEvents.customAction("anvil_upgrade", event => {
 
 		if (upgrade > 0) {
 			let sockets = 0
-			if (upgrade + 1 >= 10) sockets = 1
+			if (upgrade + 1 >= 10) sockets = 3
 			else if (upgrade + 1 >= 7) sockets = 2
-			else if (upgrade + 1 >= 4) sockets = 3
+			else if (upgrade + 1 >= 4) sockets = 1
 
 			if (sockets != 0) ctx.getItem(2).nbt.merge({ Upgrade: upgrade + 1, affix_data: { affixes: { "apotheosis:sword/attribute/violent": 0.1 * (upgrade + 1), "apotheosis:socket": sockets } } })
 			else ctx.getItem(2).nbt.merge({ Upgrade: upgrade + 1, affix_data: { affixes: { "apotheosis:sword/attribute/violent": 0.1 * (upgrade + 1) } } })
