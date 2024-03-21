@@ -442,7 +442,8 @@
   "alexsmobs:rocky_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "HEAVY_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -471,8 +472,8 @@
       "Defence - DARK": 0.0,
       "Defence - HOLY": 0.0,
       "Damage Class - STRIKE": 0.0,
-      "Damage Class - PIERCE": 0.0,
-      "Damage Class - SLASH": 0.0,
+      "Damage Class - PIERCE": 0.05,
+      "Damage Class - SLASH": -0.05,
       "Weight": 0.0,
       "Evasion": 0.0,
       "Knockback Resistance": 0.0
@@ -529,8 +530,9 @@
   },
   "alexsmobs:spiked_turtle_shell": {
     "Presets": [
-      "HELMET",
-      "MEDIUM_ARMOUR"
+			"HEAVY_ARMOUR",
+      "HARDENED",
+      "HELMET"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -838,7 +840,8 @@
   "botania:elementium_boots": {
     "Presets": [
       "BOOTS",
-      "LIGHT_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -882,7 +885,8 @@
   "botania:elementium_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+			"MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -926,7 +930,8 @@
   "botania:elementium_helmet": {
     "Presets": [
       "HELMET",
-      "LIGHT_ARMOUR"
+			"MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -970,7 +975,8 @@
   "botania:elementium_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+			"MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1014,7 +1020,8 @@
   "botania:manasteel_boots": {
     "Presets": [
       "BOOTS",
-      "LIGHT_ARMOUR"
+			"MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1058,7 +1065,8 @@
   "botania:manasteel_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+			"MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1102,7 +1110,8 @@
   "botania:manasteel_helmet": {
     "Presets": [
       "HELMET",
-      "LIGHT_ARMOUR"
+			"MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1146,7 +1155,8 @@
   "botania:manasteel_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+			"MEDIUM_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1190,7 +1200,8 @@
   "botania:manaweave_boots": {
     "Presets": [
       "BOOTS",
-      "LIGHT_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1234,7 +1245,8 @@
   "botania:manaweave_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "LIGHT_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1278,7 +1290,8 @@
   "botania:manaweave_helmet": {
     "Presets": [
       "HELMET",
-      "LIGHT_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1322,7 +1335,8 @@
   "botania:manaweave_leggings": {
     "Presets": [
       "LEGGINGS",
-      "LIGHT_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1366,7 +1380,8 @@
   "botania:terrasteel_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+			"HEAVY_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1410,7 +1425,8 @@
   "botania:terrasteel_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+			"HEAVY_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1454,7 +1470,8 @@
   "botania:terrasteel_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+			"HEAVY_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1498,7 +1515,8 @@
   "botania:terrasteel_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+			"HEAVY_ARMOUR",
+			"PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1542,7 +1560,8 @@
   "create:copper_backtank": {
     "Presets": [
       "CHESTPLATE",
-      "LIGHT_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1586,7 +1605,8 @@
   "create:copper_diving_boots": {
     "Presets": [
       "BOOTS",
-      "LIGHT_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1630,7 +1650,8 @@
   "create:copper_diving_helmet": {
     "Presets": [
       "HELMET",
-      "LIGHT_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1674,7 +1695,8 @@
   "create:netherite_backtank": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1718,7 +1740,8 @@
   "create:netherite_diving_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1762,7 +1785,8 @@
   "create:netherite_diving_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1986,7 +2010,8 @@
   "hmag:necrotic_chainmail_boots": {
     "Presets": [
       "BOOTS",
-      "LIGHT_ARMOUR"
+			"MEDIUM_ARMOUR",
+      "HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2012,7 +2037,7 @@
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
-      "Defence - DARK": 0.0,
+      "Defence - DARK": 2.0,
       "Defence - HOLY": 0.0,
       "Damage Class - STRIKE": 0.0,
       "Damage Class - PIERCE": 0.0,
@@ -2030,7 +2055,8 @@
   "hmag:necrotic_chainmail_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2056,7 +2082,7 @@
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
-      "Defence - DARK": 0.0,
+      "Defence - DARK": 2.0,
       "Defence - HOLY": 0.0,
       "Damage Class - STRIKE": 0.0,
       "Damage Class - PIERCE": 0.0,
@@ -2074,7 +2100,8 @@
   "hmag:necrotic_chainmail_helmet": {
     "Presets": [
       "HELMET",
-      "LIGHT_ARMOUR"
+      "LIGHT_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2100,7 +2127,7 @@
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
-      "Defence - DARK": 0.0,
+      "Defence - DARK": 2.0,
       "Defence - HOLY": 0.0,
       "Damage Class - STRIKE": 0.0,
       "Damage Class - PIERCE": 0.0,
@@ -2118,7 +2145,8 @@
   "hmag:necrotic_chainmail_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2144,7 +2172,7 @@
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
-      "Defence - DARK": 0.0,
+      "Defence - DARK": 2.0,
       "Defence - HOLY": 0.0,
       "Damage Class - STRIKE": 0.0,
       "Damage Class - PIERCE": 0.0,
@@ -2558,7 +2586,8 @@
   "irons_spellbooks:archevoker_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2602,7 +2631,8 @@
   "irons_spellbooks:archevoker_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2646,7 +2676,8 @@
   "irons_spellbooks:archevoker_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2690,7 +2721,8 @@
   "irons_spellbooks:archevoker_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2734,7 +2766,8 @@
   "irons_spellbooks:cryomancer_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2778,7 +2811,8 @@
   "irons_spellbooks:cryomancer_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2822,7 +2856,8 @@
   "irons_spellbooks:cryomancer_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2866,7 +2901,8 @@
   "irons_spellbooks:cryomancer_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2910,7 +2946,8 @@
   "irons_spellbooks:cultist_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2954,7 +2991,8 @@
   "irons_spellbooks:cultist_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -2998,7 +3036,8 @@
   "irons_spellbooks:cultist_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3042,7 +3081,8 @@
   "irons_spellbooks:cultist_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3086,7 +3126,8 @@
   "irons_spellbooks:electromancer_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3130,7 +3171,8 @@
   "irons_spellbooks:electromancer_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3174,7 +3216,8 @@
   "irons_spellbooks:electromancer_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3218,7 +3261,8 @@
   "irons_spellbooks:electromancer_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3262,7 +3306,8 @@
   "irons_spellbooks:gold_crown": {
     "Presets": [
       "HELMET",
-      "HEAVY_ARMOUR"
+      "LIGHT_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3306,7 +3351,8 @@
   "irons_spellbooks:netherite_mage_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3328,7 +3374,7 @@
     },
     "Defense Stats": {
       "Defence - PHYSICAL": 0.0,
-      "Defence - FIRE": 0.0,
+      "Defence - FIRE": 3.0,
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
@@ -3350,7 +3396,8 @@
   "irons_spellbooks:netherite_mage_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3372,7 +3419,7 @@
     },
     "Defense Stats": {
       "Defence - PHYSICAL": 0.0,
-      "Defence - FIRE": 0.0,
+      "Defence - FIRE": 3.0,
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
@@ -3394,7 +3441,8 @@
   "irons_spellbooks:netherite_mage_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3416,7 +3464,7 @@
     },
     "Defense Stats": {
       "Defence - PHYSICAL": 0.0,
-      "Defence - FIRE": 0.0,
+      "Defence - FIRE": 3.0,
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
@@ -3438,7 +3486,8 @@
   "irons_spellbooks:netherite_mage_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+      "MEDIUM_ARMOUR",
+			"DENSE"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -3460,7 +3509,7 @@
     },
     "Defense Stats": {
       "Defence - PHYSICAL": 0.0,
-      "Defence - FIRE": 0.0,
+      "Defence - FIRE": 3.0,
       "Defence - WATER": 0.0,
       "Defence - LIGHTNING": 0.0,
       "Defence - MAGIC": 0.0,
@@ -5690,9 +5739,9 @@
       "Defence - MAGIC": 0.0,
       "Defence - DARK": 0.0,
       "Defence - HOLY": 0.0,
-      "Damage Class - STRIKE": 0.0,
-      "Damage Class - PIERCE": 0.0,
-      "Damage Class - SLASH": 0.0,
+      "Damage Class - STRIKE": -0.1,
+      "Damage Class - PIERCE": -0.1,
+      "Damage Class - SLASH": -0.1,
       "Weight": 0.0,
       "Evasion": 0.0,
       "Knockback Resistance": 0.0
@@ -6103,7 +6152,8 @@
   "quark:forgotten_hat": {
     "Presets": [
       "HELMET",
-      "LIGHT_ARMOUR"
+      "LIGHT_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -6939,7 +6989,8 @@
   "spelunkers_charm:mining_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "LIGHT_ARMOUR",
+			"HARDENED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {

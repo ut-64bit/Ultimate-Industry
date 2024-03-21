@@ -6,9 +6,9 @@
 	"Tooltips Compat Enabled" = true
 
 ["Damage Source Configuration"]
-	#Damage Sources that will make the target get half the regular i-frames. 
+	#Damage Sources that will make the target get half the regular i-frames.
 	#Takes DamageSource object's msgId field. If you don't know what that is, don't touch this.
-	"Whitelisted reduced invulnerability sources" = ["mob", "sting"]
+	"Whitelisted reduced invulnerability sources" = ["mob", "sting", "arrow", "thrown","explosion"]
 	#How many invulnerability frames should be given on the list of reduced sources?
 	#Range: 0 ~ 20
 	Frames = 10
@@ -16,7 +16,7 @@
 	"Undodgable sources" = ["inFire", "onFire", "lava", "hotFloor", "inWall", "cramming", "drown", "starve", "fall", "flyIntoWall", "outOfWorld", "wither", "dryout", "freeze", "bleed_effect", "blood_cauldron", "heartstop"]
 	#Damage sources that will not give i-frames to the target. Takes DamageSource object's msgId field.
 	"Whitelisted no invulnerability sources" = ["player", "fall"]
-	#Entities that are blacklisted from the mob damage source. Will not do anything if 'mob' is not included in Whitelisted sources. 
+	#Entities that are blacklisted from the mob damage source. Will not do anything if 'mob' is not included in Whitelisted sources.
 	#Takes the registry name of a mob.
 	"Blacklisted mobs" = ["minecraft:slime", "minecraft:magma_cube"]
 
@@ -55,4 +55,3 @@
 	"Food Exhaustion Weight Multiplier" = 0.01
 	#Allow the player to still crit by attacking while falling.
 	"Allow Jump Crits" = false
-

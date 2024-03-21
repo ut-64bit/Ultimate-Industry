@@ -1817,7 +1817,8 @@
   },
   "farmersdelight:skillet": {
     "Presets": [
-      "LIGHT_WEAPON"
+			"TOOL_IRON",
+      "HEAVY_WEAPON"
     ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
@@ -2584,9 +2585,12 @@
     }
   },
   "irons_spellbooks:claymore": {
-    "Presets": [],
+    "Presets": [
+			"TOOL_IRON",
+			"HEAVY_WEAPON"
+		],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -2716,9 +2720,11 @@
     }
   },
   "irons_spellbooks:keeper_flamberge": {
-    "Presets": [],
+    "Presets": [
+			"TOOL_IRON"
+		],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -2760,9 +2766,11 @@
     }
   },
   "irons_spellbooks:magehunter": {
-    "Presets": [],
+    "Presets": [
+			"TOOL_IRON"
+		],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -4375,18 +4383,20 @@
     }
   },
   "quark:echorang": {
-    "Presets": [],
+    "Presets": [
+			"TOOL_DIAMOND"
+		],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
-    "Thrown?": false,
+    "Thrown?": true,
     "Offense Stats": {
       "Damage - PHYSICAL": 0.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
       "Damage - MAGIC": 0.0,
-      "Damage - DARK": 0.0,
+      "Damage - DARK": 6.0,
       "Damage - HOLY": 0.0,
       "Lifesteal": 0.0,
       "Armour Penetration": 0.0,
@@ -4419,11 +4429,13 @@
     }
   },
   "quark:flamerang": {
-    "Presets": [],
+    "Presets": [
+			"TOOL_NETHERITE"
+		],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
-    "Thrown?": false,
+    "Thrown?": true,
     "Offense Stats": {
       "Damage - PHYSICAL": 0.0,
       "Damage - FIRE": 0.0,
@@ -4463,11 +4475,13 @@
     }
   },
   "quark:pickarang": {
-    "Presets": [],
+    "Presets": [
+			"TOOL_DIAMOND"
+		],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
-    "Thrown?": false,
+    "Thrown?": true,
     "Offense Stats": {
       "Damage - PHYSICAL": 0.0,
       "Damage - FIRE": 0.0,
@@ -4507,7 +4521,9 @@
     }
   },
   "supplementaries:wrench": {
-    "Presets": [],
+    "Presets": [
+			"TOOL_IRON"
+		],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,

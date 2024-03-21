@@ -3,5 +3,20 @@
   "hmag:insomnia_sword",
   "farmersdelight:skillet",
   "hmag:iron_spear",
-  "hmag:golden_fork"
+  "hmag:golden_fork",
+	"supplementaries:wrench",
+	"quark:echorang",
+	"quark:pickarang",
+	"quark:flamerang",
+	"irons_spellbooks:artificer_cane",
+	"irons_spellbooks:autoloader_crossbow",
+	"irons_spellbooks:blood_staff",
+	"irons_spellbooks:claymore",
+	"irons_spellbooks:graybeard_staff",
+	"irons_spellbooks:ice_staff",
+	"irons_spellbooks:keeper_flamberge",
+	"irons_spellbooks:magehunter",
+	"irons_spellbooks:spellbreaker",
+	"alexsmobs:tendon_whip",
+	"alexsmobs:skelewag_sword"
 ]
