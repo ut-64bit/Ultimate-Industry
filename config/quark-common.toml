@@ -337,7 +337,7 @@
 	"Ambient Discs" = true
 	"Pathfinder Maps" = true
 	"Color Runes" = true
-	Pickarang = true
+	Pickarang = false
 	"Parrot Eggs" = true
 	Trowel = true
 	Abacus = true
@@ -582,7 +582,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = []
+		"Baked Enchantments" = ["\"botania:thunder_sword+sweeping@1\""]
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
