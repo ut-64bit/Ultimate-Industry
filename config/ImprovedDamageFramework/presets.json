@@ -235,6 +235,30 @@
       }
     ]
   },
+  "TOOL_ELEMENTIUM": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.25
+      },
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "ADDITION",
+        "Amount": -1.0
+      },
+      {
+        "Attribute": "idf:magic_damage",
+        "Operation": "ADDITION",
+        "Amount": 6.0
+      },
+      {
+        "Attribute": "idf:force",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.33
+      }
+    ]
+  },
   "TOOL_GOLD": {
     "Modifiers": [
       {
@@ -263,12 +287,41 @@
       }
     ]
   },
+  "TOOL_MANASTEEL": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.75
+      },
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "ADDITION",
+        "Amount": -1.0
+      },
+      {
+        "Attribute": "idf:magic_damage",
+        "Operation": "ADDITION",
+        "Amount": 4.0
+      },
+      {
+        "Attribute": "minecraft:generic.attack_speed",
+        "Operation": "ADDITION",
+        "Amount": 0.1
+      }
+    ]
+  },
   "TOOL_NETHERITE": {
     "Modifiers": [
       {
         "Attribute": "minecraft:generic.attack_damage",
         "Operation": "MULTIPLY_BASE",
         "Amount": 1.0
+      },
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "ADDITION",
+        "Amount": -1.0
       },
       {
         "Attribute": "idf:fire_damage",
@@ -288,6 +341,30 @@
         "Attribute": "minecraft:generic.attack_damage",
         "Operation": "MULTIPLY_BASE",
         "Amount": 1.25
+      }
+    ]
+  },
+  "TOOL_TERRASTEEL": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.0
+      },
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "ADDITION",
+        "Amount": -1.0
+      },
+      {
+        "Attribute": "idf:magic_damage",
+        "Operation": "ADDITION",
+        "Amount": 8.0
+      },
+      {
+        "Attribute": "idf:force",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.25
       }
     ]
   },

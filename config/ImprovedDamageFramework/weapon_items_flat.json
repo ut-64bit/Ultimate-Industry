@@ -662,7 +662,7 @@
   "aquaculturedelight:neptunium_knife": {
     "Presets": [],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -710,7 +710,7 @@
     "Ranged?": true,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": 0.0,
+      "Damage - PHYSICAL": 5.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
@@ -721,7 +721,7 @@
       "Armour Penetration": 0.0,
       "Critical Chance": 0.0,
       "Critical Damage": 0.0,
-      "Force": 2.0,
+      "Force": 5.0,
       "Accuracy": 10.0,
       "Knockback": 0.0,
       "Attack Speed": 0.0
@@ -748,7 +748,10 @@
     }
   },
   "botania:elementium_axe": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_ELEMENTIUM",
+      "HEAVY_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -792,7 +795,9 @@
     }
   },
   "botania:elementium_hoe": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_ELEMENTIUM"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -836,7 +841,9 @@
     }
   },
   "botania:elementium_pickaxe": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_ELEMENTIUM"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "pierce",
     "Ranged?": false,
@@ -880,7 +887,9 @@
     }
   },
   "botania:elementium_shovel": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_ELEMENTIUM"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -924,7 +933,10 @@
     }
   },
   "botania:elementium_sword": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_ELEMENTIUM",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "slash",
     "Ranged?": false,
@@ -968,9 +980,12 @@
     }
   },
   "botania:ender_dagger": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_IRON",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1027,7 +1042,7 @@
       "Damage - HOLY": 0.0,
       "Lifesteal": 0.0,
       "Armour Penetration": 0.0,
-      "Critical Chance": 0.0,
+      "Critical Chance": 12.0,
       "Critical Damage": 0.0,
       "Force": 0.35,
       "Accuracy": 0.0,
@@ -1062,7 +1077,7 @@
     "Ranged?": true,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": 0.0,
+      "Damage - PHYSICAL": 3.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
@@ -1073,7 +1088,7 @@
       "Armour Penetration": 0.0,
       "Critical Chance": 0.0,
       "Critical Damage": 0.0,
-      "Force": 2.0,
+      "Force": 5.0,
       "Accuracy": 10.0,
       "Knockback": 0.0,
       "Attack Speed": 0.0
@@ -1100,7 +1115,10 @@
     }
   },
   "botania:manasteel_axe": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_MANASTEEL",
+      "HEAVY_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -1144,7 +1162,9 @@
     }
   },
   "botania:manasteel_hoe": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_MANASTEEL"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -1188,9 +1208,11 @@
     }
   },
   "botania:manasteel_pick": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_MANASTEEL"
+    ],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "pierce",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1232,7 +1254,9 @@
     }
   },
   "botania:manasteel_shovel": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_MANASTEEL"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -1276,7 +1300,10 @@
     }
   },
   "botania:manasteel_sword": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_MANASTEEL",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "slash",
     "Ranged?": false,
@@ -1329,17 +1356,17 @@
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": -8.0,
+      "Damage - PHYSICAL": -1.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
       "Damage - MAGIC": 0.0,
       "Damage - DARK": 0.0,
-      "Damage - HOLY": 8.0,
+      "Damage - HOLY": 6.0,
       "Lifesteal": 0.0,
       "Armour Penetration": 0.0,
-      "Critical Chance": 5.0,
-      "Critical Damage": 250.0,
+      "Critical Chance": 10.0,
+      "Critical Damage": 150.0,
       "Force": 5.040000200271606,
       "Accuracy": 0.0,
       "Knockback": 0.0,
@@ -1367,7 +1394,10 @@
     }
   },
   "botania:terra_axe": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_TERRASTEEL",
+      "HEAVY_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -1411,7 +1441,9 @@
     }
   },
   "botania:terra_pick": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_TERRASTEEL"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "pierce",
     "Ranged?": false,
@@ -1456,7 +1488,7 @@
   },
   "botania:terra_sword": {
     "Presets": [
-      "TOOL_DIAMOND",
+      "TOOL_TERRASTEEL",
       "LIGHT_WEAPON"
     ],
     "Bonus Durability": 0,
@@ -1464,11 +1496,11 @@
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": -8.0,
+      "Damage - PHYSICAL": 0.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
-      "Damage - MAGIC": 8.0,
+      "Damage - MAGIC": 0.0,
       "Damage - DARK": 0.0,
       "Damage - HOLY": 0.0,
       "Lifesteal": 0.0,
@@ -1511,10 +1543,10 @@
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": -8.0,
+      "Damage - PHYSICAL": -1.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
-      "Damage - LIGHTNING": 8.0,
+      "Damage - LIGHTNING": 6.0,
       "Damage - MAGIC": 0.0,
       "Damage - DARK": 0.0,
       "Damage - HOLY": 0.0,
@@ -1549,9 +1581,12 @@
     }
   },
   "farmersdelight:diamond_knife": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_DIAMOND",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1593,9 +1628,12 @@
     }
   },
   "farmersdelight:flint_knife": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_STONE",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1637,9 +1675,12 @@
     }
   },
   "farmersdelight:golden_knife": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_GOLD",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1681,9 +1722,12 @@
     }
   },
   "farmersdelight:iron_knife": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_IRON",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1725,9 +1769,12 @@
     }
   },
   "farmersdelight:netherite_knife": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_NETHERITE",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "slash",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -1769,7 +1816,9 @@
     }
   },
   "farmersdelight:skillet": {
-    "Presets": [],
+    "Presets": [
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -1907,18 +1956,18 @@
     "Ranged?": true,
     "Thrown?": false,
     "Offense Stats": {
-      "Damage - PHYSICAL": 0.0,
+      "Damage - PHYSICAL": 3.0,
       "Damage - FIRE": 0.0,
       "Damage - WATER": 0.0,
       "Damage - LIGHTNING": 0.0,
       "Damage - MAGIC": 0.0,
-      "Damage - DARK": 0.0,
+      "Damage - DARK": 4.0,
       "Damage - HOLY": 0.0,
       "Lifesteal": 0.0,
       "Armour Penetration": 0.0,
       "Critical Chance": 0.0,
       "Critical Damage": 0.0,
-      "Force": 2.0,
+      "Force": 7.0,
       "Accuracy": 10.0,
       "Knockback": 0.0,
       "Attack Speed": 0.0
@@ -2129,7 +2178,7 @@
   "immersive_weathering:ice_sickle": {
     "Presets": [],
     "Bonus Durability": 0,
-    "Damage Class": "strike",
+    "Damage Class": "pierce",
     "Ranged?": false,
     "Thrown?": false,
     "Offense Stats": {
@@ -2171,7 +2220,10 @@
     }
   },
   "immersiveengineering:axe_steel": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_IRON",
+      "HEAVY_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -2215,7 +2267,9 @@
     }
   },
   "immersiveengineering:hoe_steel": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_IRON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -2259,7 +2313,9 @@
     }
   },
   "immersiveengineering:pickaxe_steel": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_IRON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "pierce",
     "Ranged?": false,
@@ -2303,7 +2359,9 @@
     }
   },
   "immersiveengineering:shovel_steel": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_IRON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "strike",
     "Ranged?": false,
@@ -2347,7 +2405,10 @@
     }
   },
   "immersiveengineering:sword_steel": {
-    "Presets": [],
+    "Presets": [
+      "TOOL_IRON",
+      "LIGHT_WEAPON"
+    ],
     "Bonus Durability": 0,
     "Damage Class": "slash",
     "Ranged?": false,

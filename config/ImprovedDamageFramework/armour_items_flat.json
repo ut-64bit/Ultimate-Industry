@@ -1806,7 +1806,8 @@
   "hmag:ancient_boots": {
     "Presets": [
       "BOOTS",
-      "MEDIUM_ARMOUR"
+      "HEAVY_ARMOUR",
+      "PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1850,7 +1851,8 @@
   "hmag:ancient_chestplate": {
     "Presets": [
       "CHESTPLATE",
-      "MEDIUM_ARMOUR"
+      "HEAVY_ARMOUR",
+      "PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1894,7 +1896,8 @@
   "hmag:ancient_helmet": {
     "Presets": [
       "HELMET",
-      "MEDIUM_ARMOUR"
+      "HEAVY_ARMOUR",
+      "PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
@@ -1938,7 +1941,8 @@
   "hmag:ancient_leggings": {
     "Presets": [
       "LEGGINGS",
-      "MEDIUM_ARMOUR"
+      "HEAVY_ARMOUR",
+      "PLATED"
     ],
     "Bonus Durability": 0,
     "Offense Stats": {
