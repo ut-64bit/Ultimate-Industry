@@ -26,7 +26,9 @@
 		}
 	],
 	"contextual": {
-			"type": "custom",
-			"id": "can_upgrade"
+		"type": "custom",
+		"id": "can_upgrade",
+		"min": 0,
+		"max": 2
 	}
 }

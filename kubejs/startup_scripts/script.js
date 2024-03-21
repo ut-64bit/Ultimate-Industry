@@ -39,19 +39,21 @@ LycheeEvents.customAction("anvil_upgrade", event => {
 	event.action.applyFunc = (recipe, ctx, times) => {
 		let upgrade_count = ctx.getItem(0).nbt?.Upgrade
 		upgrade_count = typeof upgrade_count === "number" ? upgrade_count + 1 : 1
-		console.log(upgrade_count)
 
-		if (upgrade_count > 1){
+		if (upgrade_count > 1) {
 			ctx.getItem(2).nbt.merge({ Upgrade: upgrade_count, affix_data: { affixes: { "apotheosis:socket": upgrade_count, } } })
-		}else{
+		} else {
 			ctx.getItem(2).nbt.merge({ Upgrade: 1, affix_data: { affixes: { "apotheosis:socket": 1, } } })
 		}
 	}
 })
 
 LycheeEvents.customCondition('can_upgrade', event => {
+	const max = event.data.max,
+		min = event.data.min;
 	event.condition.testFunc = (recipe, ctx, times) => {
-		return (ctx.getItem(0).nbt?.Upgrade > 5 || ctx.getItem(0).nbt?.apoth_boss == 1) ? 0 : times
+		const upgrade = ctx.getItem(0).nbt?.Upgrade
+		return (upgrade > max || min > upgrade || ctx.getItem(0).nbt?.apoth_boss == 1) ? 0 : times
 	}
 	event.cancel()
 })
