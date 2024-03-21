@@ -135,9 +135,9 @@
 		#Speed at which Witches throw potions (in ticks).
 		[Witches."Witch Potion Throwing"."Throw Speed"]
 			#Range: 1.0 ~ 1.7976931348623157E308
-			Minimum = 80.0
+			Minimum = 10.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			Maximum = 80.0
+			Maximum = 100.0
 
 		#Range at which Witches throw potions.
 		[Witches."Witch Potion Throwing"."Throw Range"]
