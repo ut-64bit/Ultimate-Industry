@@ -41,7 +41,7 @@ LycheeEvents.customAction("anvil_upgrade", event => {
 
 		if (upgrade > 0) {
 			let sockets = 0
-			if (upgrade + 1 >= 10) sockets = 3
+			if (upgrade + 1 >= 10) sockets = 1
 			else if (upgrade + 1 >= 7) sockets = 2
 			else if (upgrade + 1 >= 4) sockets = 3
 
