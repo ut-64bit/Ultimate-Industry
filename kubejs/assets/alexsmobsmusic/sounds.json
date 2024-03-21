@@ -1,0 +1,12 @@
+{
+  "voidwormbattlemusic": {
+    "category": "hostile",
+    "subtitle": "subtitles.voidwormbattlemusic",
+    "sounds": [
+      {
+        "name": "alexsmobsmusic:dominus_nihilus",
+        "stream": false
+      }
+    ]
+  }
+}

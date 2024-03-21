@@ -1,0 +1,108 @@
+{
+	"variant": "samurai",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+	],
+	"unique": true,
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_ranged",
+				"types": [
+					"sword",
+					"trident",
+					"bow",
+					"crossbow"
+				]
+			},
+			"attribute": "idf:crit_chance",
+			"operation": "ADDITION",
+			"values": {
+				"common": 5,
+				"uncommon": 15,
+				"rare": 25,
+				"epic": 35,
+				"mythic": 40,
+				"ancient": 45
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "idf:crit_chance",
+			"operation": "ADDITION",
+			"values": {
+				"common": 10,
+				"uncommon": 25,
+				"rare": 35,
+				"epic": 40,
+				"mythic": 47.5,
+				"ancient": 65
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings",
+					"boots"
+				]
+			},
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.15,
+				"rare": 0.25,
+				"epic": 0.35,
+				"mythic": 0.45,
+				"ancient": 0.65
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "apotheosis:arrow_velocity",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.075,
+				"uncommon": 0.15,
+				"rare": 0.25,
+				"epic": 0.375,
+				"mythic": 0.425,
+				"ancient": 0.50
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "idf:evasion",
+			"operation": "ADDITION",
+			"values": {
+				"common": 1,
+				"uncommon": 2,
+				"rare": 4,
+				"epic": 6,
+				"mythic": 8,
+				"ancient": 10
+			}
+		}
+	]
+}

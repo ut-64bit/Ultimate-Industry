@@ -1,0 +1,32 @@
+{
+	"type": "lychee:anvil_crafting",
+	"item_in": [
+		{
+			"item": "iron_sword"
+		},
+		{
+			"item": "hmag:evil_crystal_fragment"
+		}
+	],
+	"item_out": {
+		"item": "iron_sword"
+	},
+	"level_cost": 1,
+	"material_cost": 30,
+	"assembling": [
+		{
+			"type": "nbt_patch",
+			"op": "copy",
+			"from": "/item_in/0/tag",
+			"path": "/item_out/tag"
+		},
+		{
+			"type": "custom",
+			"id": "anvil_upgrade"
+		}
+	],
+	"contextual": {
+			"type": "custom",
+			"id": "can_upgrade"
+	}
+}

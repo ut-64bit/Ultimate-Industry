@@ -1,0 +1,303 @@
+{
+  "BOOTS": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.armor_toughness",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.05
+      },
+      {
+        "Attribute": "idf:strike_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.17
+      },
+      {
+        "Attribute": "idf:pierce_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.17
+      },
+      {
+        "Attribute": "idf:slash_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.17
+      }
+    ]
+  },
+  "CHESTPLATE": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.armor_toughness",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.3
+      },
+      {
+        "Attribute": "idf:strike_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.33
+      },
+      {
+        "Attribute": "idf:pierce_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.33
+      },
+      {
+        "Attribute": "idf:slash_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.33
+      }
+    ]
+  },
+  "DENSE": {
+    "Modifiers": [
+      {
+        "Attribute": "idf:strike_mult",
+        "Operation": "ADDITION",
+        "Amount": -0.1
+      },
+      {
+        "Attribute": "idf:pierce_mult",
+        "Operation": "ADDITION",
+        "Amount": -0.1
+      },
+      {
+        "Attribute": "idf:slash_mult",
+        "Operation": "ADDITION",
+        "Amount": 0.1
+      }
+    ]
+  },
+  "HARDENED": {
+    "Modifiers": [
+      {
+        "Attribute": "idf:strike_mult",
+        "Operation": "ADDITION",
+        "Amount": 0.1
+      },
+      {
+        "Attribute": "idf:pierce_mult",
+        "Operation": "ADDITION",
+        "Amount": -0.1
+      },
+      {
+        "Attribute": "idf:slash_mult",
+        "Operation": "ADDITION",
+        "Amount": -0.1
+      }
+    ]
+  },
+  "HEAVY_ARMOUR": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.armor_toughness",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.75
+      }
+    ]
+  },
+  "HEAVY_WEAPON": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_speed",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": -0.1
+      },
+      {
+        "Attribute": "idf:force",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.1
+      },
+      {
+        "Attribute": "minecraft:generic.attack_knockback",
+        "Operation": "ADDITION",
+        "Amount": 0.4
+      }
+    ]
+  },
+  "HELMET": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.armor_toughness",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.1
+      },
+      {
+        "Attribute": "idf:strike_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.21
+      },
+      {
+        "Attribute": "idf:pierce_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.21
+      },
+      {
+        "Attribute": "idf:slash_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.21
+      }
+    ]
+  },
+  "IGNORE_WEIGHT": {
+    "Modifiers": [
+      {
+        "Attribute": "idf:force",
+        "Operation": "ADDITION",
+        "Amount": -9999.0
+      }
+    ]
+  },
+  "LEGGINGS": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.armor_toughness",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.2
+      },
+      {
+        "Attribute": "idf:strike_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.29
+      },
+      {
+        "Attribute": "idf:pierce_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.29
+      },
+      {
+        "Attribute": "idf:slash_mult",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.29
+      }
+    ]
+  },
+  "LIGHT_ARMOUR": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.armor_toughness",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.25
+      }
+    ]
+  },
+  "LIGHT_WEAPON": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_speed",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.1
+      },
+      {
+        "Attribute": "idf:force",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": -0.1
+      }
+    ]
+  },
+  "MEDIUM_ARMOUR": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.armor_toughness",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.5
+      }
+    ]
+  },
+  "PLATED": {
+    "Modifiers": [
+      {
+        "Attribute": "idf:strike_mult",
+        "Operation": "ADDITION",
+        "Amount": -0.1
+      },
+      {
+        "Attribute": "idf:pierce_mult",
+        "Operation": "ADDITION",
+        "Amount": 0.1
+      },
+      {
+        "Attribute": "idf:slash_mult",
+        "Operation": "ADDITION",
+        "Amount": -0.1
+      }
+    ]
+  },
+  "TOOL_DIAMOND": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.25
+      },
+      {
+        "Attribute": "idf:force",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.33
+      }
+    ]
+  },
+  "TOOL_GOLD": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.25
+      },
+      {
+        "Attribute": "idf:force",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.0
+      }
+    ]
+  },
+  "TOOL_IRON": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.75
+      },
+      {
+        "Attribute": "minecraft:generic.attack_speed",
+        "Operation": "ADDITION",
+        "Amount": 0.1
+      }
+    ]
+  },
+  "TOOL_NETHERITE": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.0
+      },
+      {
+        "Attribute": "idf:fire_damage",
+        "Operation": "ADDITION",
+        "Amount": 8.0
+      },
+      {
+        "Attribute": "idf:force",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 0.25
+      }
+    ]
+  },
+  "TOOL_STONE": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.25
+      }
+    ]
+  },
+  "TOOL_WOOD": {
+    "Modifiers": [
+      {
+        "Attribute": "minecraft:generic.attack_damage",
+        "Operation": "MULTIPLY_BASE",
+        "Amount": 1.25
+      }
+    ]
+  }
+}
